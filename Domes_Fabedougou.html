@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Les Dômes de Fabédougou</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 30px;
+      background-color: #f4f4f4;
+    }
+
+    h1 {
+      text-align: center;
+      color: #222;
+    }
+
+    h2 {
+      text-align: center;
+      color: darkgreen;
+    }
+
+    p {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: justify;
+    }
+            .clignote {
+      font-size: 2em;
+      color: red;
+      animation: clignoter 5s infinite;
+    }
+        @keyframes clignoter {
+      0% { opacity: 1; }
+      50% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    footer {
+      margin-top: 40px;
+      padding: 20px;
+      text-align: center;
+      background-color: #222;
+      font-size: 14px;
+      color: white;
+    }
+
+    .galerie {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 50px;
+  max-width: 1200px;
+  margin: 90px auto;
+}
+
+.galerie img {
+  width: 90%;
+  border-radius: 15px;
+  border: 4px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.galerie img:hover {
+  transform: scale(2.05);
+  box-shadow: 0 12px 16px rgba(0,0,0,0.3);
+}
+    .retour {
+      display: block;
+      width: fit-content;
+      margin: 20px auto;
+      padding: 10px 20px;
+      background-color: #222;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    #header {
+            background-color: #f2f2f2;
+            text-align: center;
+            padding: 20px;
+        }
+      
+      #logo {
+      width: 550px;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+      <div id="header">
+        <h1 class="clignote">BIENVENU À BANFORA</h1>
+        <img src="images\Place_de_la_nation.png" alt="Banfora" id="logo">
+    </div>
+  <a href="Le_Patrimoine.html" class="retour">Page Précédente</a>
+  <h1>Les Dômes de Fabédougou</h1>
+  <div class="galerie">
+  <img src="images\images (12).jpeg" alt="Les Dômes de Fabédougou">
+  <img src="images\images (14).jpeg" alt="Les Dômes de Fabédougou">
+  <img src="images\images (15).jpeg" alt="Les Dômes de Fabédougou">
+  <img src="images\domes_de_fabedougou4.jpeg" alt="Les Dômes de Fabédougou">
+  <img src="images\domes_de_fabedougou3.jpeg" alt="Les Dômes de Fabédougou">
+  <img src="images\domes_de_fabedougou6.jpeg" alt="Les Dômes de Fabédougou">
+  </div>
+  <h2>Description et Historique</h2>
+  <p>
+    Les Dômes de Fabédougou sont une formation rocheuse naturelle remarquable située dans la région du sud-ouest du Burkina Faso. Ces formations géologiques uniques, ressemblant à des coupoles ou à des pyramides, sont le résultat de millions d'années d'érosion. Le paysage y est à la fois spectaculaire et apaisant, offrant une vue panoramique impressionnante, notamment au coucher du soleil. <br><br>Agées d’environ 2 milliards d’années. Façonnée par l’érosion, elles offres un décor spectaculaire avec leurs silhouettes sphéroïdales et striées. Elles ont aussi une formation rocheuse sphéroïdales en grés, vielles de plus de 1.8 milliards d’années, offrant de magnifiques paronomases dômes résultent de l’érosion dû à l’eau et au vent. Ce site est devenu une attraction touristique récente.
+  </p>
+
+  <footer>
+    <p style="text-align: center;">&copy; 2025 UNB/ESI BAZONGO Anicet & BAYILI Adeline Tous doits réservés.</p>
+  </footer>
+
+</body>
+</html>
